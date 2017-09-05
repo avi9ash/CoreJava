@@ -1,0 +1,23 @@
+import java.util.*;
+import java.lang.*;
+
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc =new Scanner(System.in);
+		String s="",t="";
+		while(true)
+		{
+			if(s!="42")
+			{
+				s=sc.next();
+				t=t+"\n"+s;
+			}
+			else
+			break;
+
+		}
+		System.out.println(t);
+	}
+}
