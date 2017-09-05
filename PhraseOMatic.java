@@ -19,5 +19,7 @@ class PhraseOMatic
 
   String p=w1[r1]+" "+w2[r2]+" "+w3[r3];
   System.out.println("What we need is a "+p);
+
+  
   }
 }
